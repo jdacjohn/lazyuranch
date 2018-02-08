@@ -1,0 +1,1 @@
+DO NOT DELETE THIS DIRECTORY.  THIS is the PHP Session Path directory for the server/website PHP configuration.  Deleting this DIR will break any PHP - SESSION behavior.

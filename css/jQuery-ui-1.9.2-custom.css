@@ -1,0 +1,61 @@
+@charset "utf-8";
+/* Changes/Overrides to jQuery UI 1.9.2 Darkhive CSS */
+.ui-accordion .ui-accordion-content { padding: 1em 2.2em 2em 2.2em; border-top: 0; overflow: visible !important; zoom: 1; }
+.ui-accordion-content { 
+	color: #eeeeee; 
+	font-family: 'Donegal One', serif;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 16px;
+	text-align: justify;
+}
+/* Changed for Lazy U Ranch Theme colors - JDAC Solutions. 01062012. */
+/*.ui-state-hover, .ui-widget-content .ui-state-hover, .ui-widget-header .ui-state-hover, .ui-state-focus, .ui-widget-content .ui-state-focus, .ui-widget-header .ui-state-focus { border: 1px solid #0b93d5; background: #003147 url(images/ui-bg_highlight-soft_33_003147_1x100.png) 50% 50% repeat-x; font-weight: normal; color: #ffffff; } */
+.ui-state-hover, .ui-widget-content .ui-state-hover, .ui-widget-header .ui-state-hover, .ui-state-focus, .ui-widget-content .ui-state-focus, .ui-widget-header .ui-state-focus { border: 1px solid #D57F28; background: #ae6624 url(../images/dark-hive-custom/ui-bg_highlight-soft_33_ae6624_1x100.png) 50% 50% repeat-x; font-weight: bold; color: #d89354;  text-shadow: 1px 1px 1px #000; }
+/* End change for Lazy U */
+/* Changed for Lazy U Ranch Theme colors - JDAC Solutions. 01062012. */
+/*.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active { border: 1px solid #26b3f7; background: #0972a5 url(images/ui-bg_highlight-hard_20_0972a5_1x100.png) 50% 50% repeat-x; font-weight: normal; color: #ffffff; } */
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active { border: 1px solid #d89354; background: #ae6624 url(../images/dark-hive-custom/ui-bg_highlight-hard_20_ae6624_1x100.png) 50% 50% repeat-x; font-weight: bold; color: #d89354; text-shadow: 1px 1px 1px #000; }
+/* End 2nd change */
+
+/* Extra stuff added for Lazy U Ranch */
+.accordionUL {
+	margin: 0;
+	padding-left: 0;
+	list-style-type:disc;
+}
+.accordionUL li {
+	padding-left: 1em;
+	text-indent: -1em;
+	padding-bottom: 2em;
+}
+.accordionUL li a {
+	font-size:14px;
+	color: #d89354;
+	text-decoration: underline;
+}
+.accordionUL li a:hover {
+	color: #fff;
+	text-decoration:none;
+}
+.accordionUL li ul {
+	margin-left: -1em;
+}
+.accordionUL li ul li {
+	list-style-type: square;
+}
+.mapLink a {
+	font-size: 10px !important;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	text-decoration: none !important;
+}
+
+.mapLink a:hover {
+	color: #fff;
+}
+.accordionAddress {
+	padding-top: 1em;
+	padding-left: 12px;
+	text-indent: 0px;
+}
+
